@@ -22,8 +22,11 @@ Follow the steps below to capture the features, and train the SVM.
    ~/.bashrc file, and if not, add them appropriately and save the file:
 
    source /opt/ros/kinetic/setup.bash
+
    source ~/catkin_ws_1/devel/setup.bash
+
    export GAZEBO_MODEL_PATH=~/catkin_ws_1/src/sensor_stick/models
+
    # Commented to avoid conflict with ros environment
    #export PATH="/home/sachin/miniconda3/bin:$PATH"
 
